@@ -94,6 +94,7 @@ let wishlist = [
     }
 ];
 
+// My solution:
 console.log('\n"`-._,-\'"`-._,-\'"`-._,-\'"`(^,^)-._,-\'"`-._,-\'"`-._,-\'"`-._,-\'"`-._,-\'"`-._,-\'"\n');
 /** a) implement a function that adds the product id along with the user name to the wishlist array
  * if the product id for the specific user is in the wishlist then remove it
