@@ -1,5 +1,5 @@
 My solution for:
-
+<code>
 /**
  * Create the wishlist functionality of an e-shop that is selling vitamins.
  * (only the JS part)
@@ -95,3 +95,4 @@ let wishlist = [
         productId: 1
     }
 ];
+</code>
