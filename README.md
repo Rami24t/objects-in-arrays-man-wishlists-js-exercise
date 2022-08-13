@@ -1,5 +1,4 @@
 My solution for:
-<code>
 /**
  * Create the wishlist functionality of an e-shop that is selling vitamins.
  * (only the JS part)
@@ -32,67 +31,5 @@ My solution for:
  * 
  * Scenario: User wants to see his wishlisted products
  * c) implement a function that lists all the products that their ids are contained in the wishlist for the specific user
- * Output should be like:
  * 
- * For user george here is the wishlist:
- * - D3 5000 iu
- *   Takes care of your immune system
- *   Price: 10€
- *   <img src="http://example.com/1/">
- * 
- */
-
-// Sample Data
-let products = [
-    { // 1
-        id: 1,
-        name: "D3 5000 iu",
-        description: 'Takes care of your immune system',
-        price: 10,
-        image: 'http://example.com/1'
-    },
-    { // 2
-        id: 2,
-        name: "C 1000mg",
-        description: '180 tabs of vitamin C with Bioflanoids',
-        price: 3,
-        image: 'http://example.com/23'
-    },
-    { // 3
-        id: 3,
-        name: "B - Complex 50 mg",
-        description: 'Balanced mix of all basic B vitamins',
-        price: 12,
-        image: 'http://example.com/44'
-    },
-    { // 4
-        id: 4,
-        name: "Cal-Mag",
-        description: 'Calcium and Magnesium in the proper analogy',
-        price: 15,
-        image: 'http://example.com/123'
-    },
-    { // 5
-        id: 5,
-        name: "E 400iu",
-        description: 'Best for skin issues',
-        price: 10,
-        image: 'http://example.com/456'
-    }
-];
-
-let wishlist = [
-    {
-        user: 'alkis',
-        productId: 1
-    },
-    {
-        user: 'alkis',
-        productId: 2
-    },
-    {
-        user: 'george',
-        productId: 1
-    }
-];
-</code>
+ */...
